@@ -1,4 +1,6 @@
 # co2-emissions-cafe
 Uncommon Hacks 2023 - LoCo2 Cafe
 
-<img src="https://github.com/magabrielaa/co2-emissions-cafe/blob/main/LoCO2.gif" width="1200" height="600" />
+
+https://github.com/magabrielaa/co2-emissions-cafe/assets/90418921/fcf180c1-c760-4ee4-b091-cf1cbce126f6
+

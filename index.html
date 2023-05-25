@@ -1,0 +1,99 @@
+<html>
+<head>
+  <title>Uncommon Hacks - Coffee Shop Project 2023</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  <!--Header-->
+  <header>
+    <nav class="navbar">
+      <a class="nav-branding" href="landing.html">Low CO<sub>2</sub> Cafe</a>
+      <div id="co2counter" class="co2counter">
+        eCO<sub>2</sub> Wallet: 2000
+      </div>
+      <ul class="nav-menu">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Beverages</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Food</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Dessert</a>
+        </li>
+      </ul>
+
+      <div class="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+
+    </nav>
+  </header>
+
+
+  <!--Main layout-->
+  <main class="content column-page" id="parent"> 
+    <div class="grid-container" id="grid">
+      <h1 id="menu-title">Select Your Beverage</h1>
+      <div class="grid-item" id="item-1">
+        Black coffee <img id="item1-image" class="black-coffee" class="pic" src="https://static.vecteezy.com/system/resources/previews/009/307/068/original/black-coffee-in-a-cup-on-transparent-background-file-png.png"/>
+      </div>
+      <div class="grid-item" id="item-2">
+        Hot chocolate<img id="item2-image" class="chocolate" class="pic" src="https://images.pngnice.com/download/2007/Hot-Chocolate-PNG-Photo.png"/>
+      </div>
+      <div class="grid-item" id="item-3">
+        Tea <img id="item3-image" class="tea" class="pic" src="https://www.pngall.com/wp-content/uploads/2016/04/Tea-Transparent.png"/>
+      </div>
+    </div>
+    <div id="cafe-indoors">
+      <img id="cafe" src="https://jeffszuc.com/static/ee8de2f13592971e90291abfef81f83e/36dbb/sketchbook-trumansburg_gimme_coffee.jpg">
+      <div id="order">
+        <h1>Your order</h1>
+        <!-- <button type="button" id="co2-deplete-wallet-button">Click to confirm purchase (and subtract from wallet).</button> -->
+      </div>
+    </div>
+    <!-- NEW CODE FOR POPUP -->
+    <!-- <button id="open">Proceed</button> -->
+    <div class="hide" id="modal_container">
+      <div class="subContainer">
+        <h1>Hey! Just an FYI, did you know...</h1>
+        <button class="popupButton" id="close">Exit</button>
+      </div>
+      <!-- <p>Placeholder (to be updated by our JS Code.)</p> -->
+    </div>
+  </main>
+
+
+  <!--Footer-->
+  <footer class="footer">
+    <div class="nav-footer">
+      <div class="nav-footer-left">Copyright 2023</div>   
+      <div class="nav-footer-right">Contact Us:
+        <ul class="footer-items list-unstyled">
+          <li class="nav-item compact">
+            <a class="nav-link" href="#">
+              <i class="bi bi-github" role="img"> </i> 
+            </a>
+          </li>  
+          <li class="nav-item compact">
+            <a class="nav-link" href="#">
+              <i class="bi bi-instagram" role="img"> </i> 
+            </a>
+          </li>  
+        </ul>
+        <ul>
+          <li><a href="#">Email</a></li>
+          <li><a href="#">Twitter</a></li>
+          <li><a href="#">Facebook</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+</body>
+
+<script type="text/javascript" src="script.js"></script>
+
+</html>

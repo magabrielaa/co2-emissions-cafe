@@ -1,0 +1,18 @@
+{
+    "coffee": "warning", 
+    "water": "warning", 
+    "tea": "warning", 
+    "hot chocolate": "warning", 
+    "honey": "warning",
+    "stevia": "warning", 
+    "cane sugar": "warning", 
+    "oat milk": "warning", 
+    "almond milk": "warning",
+    "cow milk": "warning", 
+    "bagel sandwich": "warning", 
+    "grilled cheese": "warning", 
+    "roast beef sandwich": "warning", 
+    "chocolate cheesecake": "warning",
+    "brownie": "warning", 
+    "donut": "warning"
+}
